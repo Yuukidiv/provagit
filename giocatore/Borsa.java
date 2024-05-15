@@ -12,7 +12,7 @@ public class Borsa {
 	public Borsa(int pesoMax) {
 		this.pesoMax = pesoMax;
 		this.attrezzi = new Attrezzo[10]; // speriamo che bastino...
-		this.numeroAttrezzi = 0;
+		this.numeroAttrezzi = 10;
 	}
 	public boolean addAttrezzo(Attrezzo attrezzo) {
 		if (this.getPeso() + attrezzo.getPeso() > this.getPesoMax())
